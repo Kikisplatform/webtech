@@ -1,0 +1,44 @@
+img{
+    height: 300px;
+}
+main{
+    margin: 0px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center ;
+}
+#cont{
+    display: flex;
+    width: 80%;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    height: 100vh;
+    overflow: hidden;
+}
+.div{
+    /* display: flex; */
+    overflow: hidden;
+}
+button{
+    display: block;
+    width: 100%;
+    align-items: end;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: aquamarine;
+    transition: 1s;
+}
+button:hover{
+    background-color: cyan;
+    color: blueviolet;
+    font-size: 15px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img:hover{
+    height: 400px;
+}
